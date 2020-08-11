@@ -6,6 +6,7 @@ const path = require('path')
 console.log("Log message")
 console.error("Help")
 console.warn("This is a warning.")
+x= 2+3
 
 describe('index', () => {
   const html = '<div></div>'
