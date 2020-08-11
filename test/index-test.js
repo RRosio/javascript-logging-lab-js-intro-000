@@ -3,9 +3,9 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
-console.error("Help")
 console.log("Log message")
-console.warn("Help")
+console.error("Help")
+console.warn("This is a warning.")
 
 describe('index', () => {
   const html = '<div></div>'
