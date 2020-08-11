@@ -4,7 +4,7 @@ const jsdom = require('jsdom')
 const path = require('path')
 
 console.error("Help")
-console.log("Help")
+console.log("Log message")
 console.warn("Help")
 
 describe('index', () => {
